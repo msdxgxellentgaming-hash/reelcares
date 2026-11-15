@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EmesdianicXg | Official Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #050914;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    background: #080e1c;
+    border-bottom: 1px solid #172b48;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #dbeafe;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    background:
+    radial-gradient(ellipse at 50% 45%,
+    #102b50 0%, #080f20 45%, #050914 75%);
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.tag {
+    display: inline-block;
+    border: 1px solid #168bd5;
+    color: #38bdf8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 8vw, 85px);
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+    text-shadow: 0 0 30px #0284c7;
+}
+
+.hero p {
+    color: #a8b8ce;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #38bdf8;
+    transform: translateY(-4px);
+}
+
+section {
+    padding: 100px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    color: #38bdf8;
+}
+
+.subtitle {
+    color: #94a3b8;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+.about {
+    background: #080e1c;
+}
+
+.about-content {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    color: #a8b8ce;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #0c1729;
+    border: 1px solid #1b3555;
+    border-radius: 12px;
+    padding: 35px 25px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 10px 35px #0284c722;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #a8b8ce;
+    line-height: 1.7;
+}
+
+.contact {
+    text-align: center;
+    background: #080e1c;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #718096;
+    border-top: 1px solid #1b3555;
+    font-size: 13px;
+}
+
+@media(max-width: 650px) {
+    header {
+        padding: 15px 5%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 550px;
+    }
+
+    section {
+        padding: 75px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">EMESDIANICXG.</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="tag">WELCOME TO MY OFFICIAL WEBSITE</div>
+
+        <h1>EMESDIANIC<span>XG</span></h1>
+
+        <p>
+            Creativity. Innovation. Vision.<br>
+            Building ideas, exploring technology
+            and creating something different.
+        </p>
+
+        <a href="#about" class="btn">DISCOVER MORE</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">ABOUT <span>ME</span></h2>
+
+    <p class="subtitle">
+        Welcome to the world of EmesdianicXg.
+    </p>
+
+    <div class="about-content">
+        This is my personal digital space.
+        A place where creativity meets technology,
+        ideas become projects and new possibilities
+        begin.
+
+        <br><br>
+
+        Explore my interests, discover my projects
+        and follow my journey.
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">MY <span>WORLD</span></h2>
+
+    <p class="subtitle">
+        Discover the things that inspire me.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>01 / TECHNOLOGY</h3>
+            <p>
+                Exploring digital technology,
+                innovation and new ideas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>02 / CREATIVITY</h3>
+            <p>
+                Turning imagination into
+                creative digital experiences.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>03 / GAMING</h3>
+            <p>
+                Exploring gaming, Roblox
+                development and entertainment.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="section-title">LET'S <span>CONNECT</span></h2>
+
+    <p class="subtitle">
+        Follow my journey and stay connected.
+    </p>
+
+    <a href="#home" class="btn">BACK TO TOP</a>
+</section>
+
+</main>
+
+<footer>
+    © <span id="year"></span> EmesdianicXg. All Rights Reserved.
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
